@@ -6,7 +6,7 @@ Welcome to the Apex Legends Configurations Repository! This Git repository is de
 
 - Getting Started
 - How to Use
-- ToDo
+- TODO
 - Credits
 
 ### Getting Started
@@ -18,22 +18,29 @@ To get started, clone this repository to your local machine:
 
 #### Windows
 
-1. Open downloaded folder
-2. Place `autoexec.cfg` to your games cfg directory. For example: `C:\Program Files (x86)\Steam\steamapps\common\Apex Legends\cfg`
-3. Place `settings.cfg` and `videoconfig.txt` to `%USERPROFILE%\Saved Games\Respawn\Apex\local`
-4. Add launch options to your game by right-clicking on the game in Steam and going to "Properties".
-5. Enjoy boosted fps and comfortable game settings!
+1. Open downloaded folder.
+2. Choose your desired configs.
+3. Place `autoexec.cfg` to your games cfg directory. For example: `C:\Program Files (x86)\Steam\steamapps\common\Apex Legends\cfg`
+4. Place `settings.cfg` and `videoconfig.txt` to `%USERPROFILE%\Saved Games\Respawn\Apex\local`
+5. Add launch options to your game by right-clicking on the game in Steam and going to "Properties".
+6. Enjoy boosted fps and comfortable game settings!
 
 #### Linux
 
 1. Clone git repo to your desired directory.
 2. Change directory with a `cd apex-configs`
-3. Place `autoexec.cfg` to your games cfg directory. For example: `/home/$USER/.local/share/Steam/steamapps/common/Apex Legends/cfg/`
-4. Place `settings.cfg` and `videoconfig.txt` to `/home/$USER/.steam/steam/steamapps/compatdata/1172470/pfx/drive_c/users/steamuser/Saved Games/Respawn/Apex/local/`
-5. Add launch options to your game by right-clicking on the game in Steam and going to "Properties".
-6. Enjoy boosted fps and comfortable game settings!
+3. Choose your desired configs.
+4. Place `autoexec.cfg` to your games cfg directory. For example: `/home/$USER/.local/share/Steam/steamapps/common/Apex Legends/cfg/`
+5. Place `settings.cfg` and `videoconfig.txt` to `/home/$USER/.steam/steam/steamapps/compatdata/1172470/pfx/drive_c/users/steamuser/Saved Games/Respawn/Apex/local/`
+6. Add launch options to your game by right-clicking on the game in Steam and going to "Properties".
+7. Enjoy boosted fps and comfortable game settings!
 
-### ToDo
+#### Launch options
+
+Windows and Linux: `-dev -novid -high +exec autoexec.cfg`
+Linux with gamemoderun and strangle FPS lock: `strangle 141 gamemoderun %command% -dev -novid -high +exec autoexec.cfg`
+
+### TODO
 
 - Automate config installation
 
