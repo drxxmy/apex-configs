@@ -26,11 +26,15 @@ To get started, clone this repository to your local machine:
 
 #### Linux
 
-WIP
+1. Clone git repo to your desired directory.
+2. Change directory with a `cd apex-configs`
+3. Place `autoexec.cfg` to your games cfg directory. For example: `/home/$USER/.local/share/Steam/steamapps/common/Apex Legends/cfg/`
+4. Place `settings.cfg` and `videoconfig.txt` to `/home/$USER/.steam/steam/steamapps/compatdata/1172470/pfx/drive_c/users/steamuser/Saved Games/Respawn/Apex/local/`
+5. Add launch options to your game by right-clicking on the game in Steam and going to "Properties".
+6. Enjoy boosted fps and comfortable game settings!
 
 ### ToDo
 
-- Add configuration steps for linux
 - Automate config installation
 
 ### Credits
