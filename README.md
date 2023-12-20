@@ -39,6 +39,9 @@ To get started, clone this repository to your local machine:
 
 Windows and Linux: `-dev -novid -high +exec autoexec.cfg`
 Linux with gamemoderun and strangle FPS lock: `strangle 141 gamemoderun %command% -dev -novid -high +exec autoexec.cfg`
+Dependencies:
+- https://gitlab.com/torkel104/libstrangle
+- https://github.com/FeralInteractive/gamemode
 
 ### TODO
 
